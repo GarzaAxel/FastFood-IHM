@@ -86,6 +86,12 @@
     <Compile Include="Bebidas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Carrito.Designer.vb">
+      <DependentUpon>Carrito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Carrito.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Categoria.Designer.vb">
       <DependentUpon>Categoria.vb</DependentUpon>
     </Compile>
@@ -132,6 +138,12 @@
     <Compile Include="Registro.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reservaciones.Designer.vb">
+      <DependentUpon>Reservaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reservaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Acceso.resx">
@@ -139,6 +151,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bebidas.resx">
       <DependentUpon>Bebidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carrito.resx">
+      <DependentUpon>Carrito.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Categoria.resx">
       <DependentUpon>Categoria.vb</DependentUpon>
@@ -160,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservaciones.resx">
+      <DependentUpon>Reservaciones.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
