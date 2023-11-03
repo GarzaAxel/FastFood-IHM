@@ -104,6 +104,18 @@
     <Compile Include="Comida.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Contacto.Designer.vb">
+      <DependentUpon>Contacto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contacto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Domicilio.Designer.vb">
+      <DependentUpon>Domicilio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Domicilio.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -144,6 +156,12 @@
     <Compile Include="Reservaciones.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Transferencia.Designer.vb">
+      <DependentUpon>Transferencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Acceso.resx">
@@ -160,6 +178,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Comida.resx">
       <DependentUpon>Comida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contacto.resx">
+      <DependentUpon>Contacto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Domicilio.resx">
+      <DependentUpon>Domicilio.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -178,6 +202,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reservaciones.resx">
       <DependentUpon>Reservaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transferencia.resx">
+      <DependentUpon>Transferencia.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
