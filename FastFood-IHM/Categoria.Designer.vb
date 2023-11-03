@@ -52,10 +52,9 @@ Partial Class frmCategoria
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(425, 151)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(380, 127)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(374, 33)
+        Me.Label3.Size = New System.Drawing.Size(290, 24)
         Me.Label3.TabIndex = 31
         Me.Label3.Text = "Elige la opción que deseas:"
         '
@@ -68,10 +67,9 @@ Partial Class frmCategoria
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Black
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(675, 478)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button2.Location = New System.Drawing.Point(546, 403)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(291, 96)
+        Me.Button2.Size = New System.Drawing.Size(218, 78)
         Me.Button2.TabIndex = 32
         Me.Button2.Text = "      Reservaciones"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -87,10 +85,9 @@ Partial Class frmCategoria
         Me.btnPromociones.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPromociones.ForeColor = System.Drawing.Color.Black
         Me.btnPromociones.Image = CType(resources.GetObject("btnPromociones.Image"), System.Drawing.Image)
-        Me.btnPromociones.Location = New System.Drawing.Point(308, 216)
-        Me.btnPromociones.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnPromociones.Location = New System.Drawing.Point(270, 176)
         Me.btnPromociones.Name = "btnPromociones"
-        Me.btnPromociones.Size = New System.Drawing.Size(265, 85)
+        Me.btnPromociones.Size = New System.Drawing.Size(199, 69)
         Me.btnPromociones.TabIndex = 26
         Me.btnPromociones.Text = " Promociones"
         Me.btnPromociones.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -106,10 +103,9 @@ Partial Class frmCategoria
         Me.btnCarrito.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCarrito.ForeColor = System.Drawing.Color.Black
         Me.btnCarrito.Image = CType(resources.GetObject("btnCarrito.Image"), System.Drawing.Image)
-        Me.btnCarrito.Location = New System.Drawing.Point(675, 365)
-        Me.btnCarrito.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnCarrito.Location = New System.Drawing.Point(556, 294)
         Me.btnCarrito.Name = "btnCarrito"
-        Me.btnCarrito.Size = New System.Drawing.Size(252, 81)
+        Me.btnCarrito.Size = New System.Drawing.Size(189, 66)
         Me.btnCarrito.TabIndex = 30
         Me.btnCarrito.Text = "          Carrito"
         Me.btnCarrito.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -125,10 +121,9 @@ Partial Class frmCategoria
         Me.btnPostres.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPostres.ForeColor = System.Drawing.Color.Black
         Me.btnPostres.Image = CType(resources.GetObject("btnPostres.Image"), System.Drawing.Image)
-        Me.btnPostres.Location = New System.Drawing.Point(675, 207)
-        Me.btnPostres.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnPostres.Location = New System.Drawing.Point(556, 172)
         Me.btnPostres.Name = "btnPostres"
-        Me.btnPostres.Size = New System.Drawing.Size(252, 94)
+        Me.btnPostres.Size = New System.Drawing.Size(189, 76)
         Me.btnPostres.TabIndex = 29
         Me.btnPostres.Text = "          Postres"
         Me.btnPostres.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -144,10 +139,9 @@ Partial Class frmCategoria
         Me.btnBebidas.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBebidas.ForeColor = System.Drawing.Color.Black
         Me.btnBebidas.Image = CType(resources.GetObject("btnBebidas.Image"), System.Drawing.Image)
-        Me.btnBebidas.Location = New System.Drawing.Point(308, 478)
-        Me.btnBebidas.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnBebidas.Location = New System.Drawing.Point(280, 407)
         Me.btnBebidas.Name = "btnBebidas"
-        Me.btnBebidas.Size = New System.Drawing.Size(252, 87)
+        Me.btnBebidas.Size = New System.Drawing.Size(189, 71)
         Me.btnBebidas.TabIndex = 28
         Me.btnBebidas.Text = "      Bebidas"
         Me.btnBebidas.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -163,10 +157,9 @@ Partial Class frmCategoria
         Me.btnComida.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnComida.ForeColor = System.Drawing.Color.Black
         Me.btnComida.Image = CType(resources.GetObject("btnComida.Image"), System.Drawing.Image)
-        Me.btnComida.Location = New System.Drawing.Point(308, 352)
-        Me.btnComida.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnComida.Location = New System.Drawing.Point(270, 289)
         Me.btnComida.Name = "btnComida"
-        Me.btnComida.Size = New System.Drawing.Size(265, 94)
+        Me.btnComida.Size = New System.Drawing.Size(199, 76)
         Me.btnComida.TabIndex = 27
         Me.btnComida.Text = "     Comidas"
         Me.btnComida.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -181,19 +174,17 @@ Partial Class frmCategoria
         Me.Panel2.Controls.Add(Me.gusto)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.ForeColor = System.Drawing.Color.Red
-        Me.Panel2.Location = New System.Drawing.Point(300, 0)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel2.Location = New System.Drawing.Point(226, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(753, 145)
+        Me.Panel2.Size = New System.Drawing.Size(595, 118)
         Me.Panel2.TabIndex = 25
         '
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(553, 30)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox3.Location = New System.Drawing.Point(473, 24)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(87, 66)
+        Me.PictureBox3.Size = New System.Drawing.Size(65, 54)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 25
         Me.PictureBox3.TabStop = False
@@ -201,10 +192,9 @@ Partial Class frmCategoria
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(128, 30)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox2.Location = New System.Drawing.Point(75, 24)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(87, 66)
+        Me.PictureBox2.Size = New System.Drawing.Size(65, 54)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 24
         Me.PictureBox2.TabStop = False
@@ -216,10 +206,9 @@ Partial Class frmCategoria
         Me.gusto.BackColor = System.Drawing.Color.Red
         Me.gusto.Font = New System.Drawing.Font("Impact", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gusto.ForeColor = System.Drawing.Color.White
-        Me.gusto.Location = New System.Drawing.Point(254, 41)
-        Me.gusto.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.gusto.Location = New System.Drawing.Point(230, 33)
         Me.gusto.Name = "gusto"
-        Me.gusto.Size = New System.Drawing.Size(211, 59)
+        Me.gusto.Size = New System.Drawing.Size(168, 45)
         Me.gusto.TabIndex = 4
         Me.gusto.Text = "Fast Food "
         '
@@ -236,9 +225,8 @@ Partial Class frmCategoria
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(300, 608)
+        Me.Panel1.Size = New System.Drawing.Size(226, 520)
         Me.Panel1.TabIndex = 24
         '
         'Label6
@@ -246,10 +234,9 @@ Partial Class frmCategoria
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Freestyle Script", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(63, 410)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(46, 287)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(155, 52)
+        Me.Label6.Size = New System.Drawing.Size(129, 42)
         Me.Label6.TabIndex = 20
         Me.Label6.Text = "Instantánea!"
         '
@@ -262,10 +249,9 @@ Partial Class frmCategoria
         Me.ContactoCbtn.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ContactoCbtn.ForeColor = System.Drawing.Color.Black
         Me.ContactoCbtn.Image = CType(resources.GetObject("ContactoCbtn.Image"), System.Drawing.Image)
-        Me.ContactoCbtn.Location = New System.Drawing.Point(21, 501)
-        Me.ContactoCbtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.ContactoCbtn.Location = New System.Drawing.Point(16, 385)
         Me.ContactoCbtn.Name = "ContactoCbtn"
-        Me.ContactoCbtn.Size = New System.Drawing.Size(252, 85)
+        Me.ContactoCbtn.Size = New System.Drawing.Size(189, 69)
         Me.ContactoCbtn.TabIndex = 22
         Me.ContactoCbtn.Text = "       Contacto"
         Me.ContactoCbtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -277,20 +263,18 @@ Partial Class frmCategoria
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Freestyle Script", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(76, 309)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(59, 232)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(121, 52)
+        Me.Label5.Size = New System.Drawing.Size(100, 42)
         Me.Label5.TabIndex = 19
         Me.Label5.Text = "Felicidad"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(27, 14)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox1.Location = New System.Drawing.Point(20, 11)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(247, 170)
+        Me.PictureBox1.Size = New System.Drawing.Size(185, 138)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -300,10 +284,9 @@ Partial Class frmCategoria
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label1.Location = New System.Drawing.Point(52, 16)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(39, 13)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(0, 29)
+        Me.Label1.Size = New System.Drawing.Size(0, 24)
         Me.Label1.TabIndex = 0
         '
         'Label4
@@ -311,19 +294,17 @@ Partial Class frmCategoria
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Freestyle Script", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(48, 214)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(36, 174)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(192, 52)
+        Me.Label4.Size = New System.Drawing.Size(155, 42)
         Me.Label4.TabIndex = 18
         Me.Label4.Text = "¡Comida rápida,"
         '
         'frmCategoria
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.ClientSize = New System.Drawing.Size(1053, 608)
+        Me.ClientSize = New System.Drawing.Size(821, 520)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btnPromociones)
@@ -333,7 +314,6 @@ Partial Class frmCategoria
         Me.Controls.Add(Me.btnComida)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmCategoria"
         Me.Text = "Categoria"
         Me.Panel2.ResumeLayout(False)
