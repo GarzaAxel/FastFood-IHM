@@ -95,20 +95,18 @@ Partial Class Bebidas
         '
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(1138, 670)
-        Me.Label27.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label27.Location = New System.Drawing.Point(854, 544)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(83, 30)
+        Me.Label27.Size = New System.Drawing.Size(63, 24)
         Me.Label27.TabIndex = 77
         Me.Label27.Text = "Cerveza"
         '
         'PictureBox11
         '
         Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
-        Me.PictureBox11.Location = New System.Drawing.Point(1109, 535)
-        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox11.Location = New System.Drawing.Point(832, 435)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(161, 126)
+        Me.PictureBox11.Size = New System.Drawing.Size(121, 102)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 76
         Me.PictureBox11.TabStop = False
@@ -117,10 +115,9 @@ Partial Class Bebidas
         '
         Me.Button7.BackColor = System.Drawing.Color.White
         Me.Button7.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(1096, 439)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button7.Location = New System.Drawing.Point(822, 357)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(174, 60)
+        Me.Button7.Size = New System.Drawing.Size(130, 49)
         Me.Button7.TabIndex = 75
         Me.Button7.Text = "Agregar al carrito"
         Me.Button7.UseVisualStyleBackColor = False
@@ -129,10 +126,9 @@ Partial Class Bebidas
         '
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(1151, 396)
-        Me.Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label26.Location = New System.Drawing.Point(863, 322)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(70, 23)
+        Me.Label26.Size = New System.Drawing.Size(59, 21)
         Me.Label26.TabIndex = 74
         Me.Label26.Text = "$70.00"
         '
@@ -140,10 +136,9 @@ Partial Class Bebidas
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(1095, 358)
-        Me.Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label25.Location = New System.Drawing.Point(821, 291)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(162, 23)
+        Me.Label25.Size = New System.Drawing.Size(133, 21)
         Me.Label25.TabIndex = 73
         Me.Label25.Text = "Copa vino tinto"
         '
@@ -151,20 +146,18 @@ Partial Class Bebidas
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(1163, 314)
-        Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label24.Location = New System.Drawing.Point(872, 255)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(51, 30)
+        Me.Label24.Size = New System.Drawing.Size(41, 24)
         Me.Label24.TabIndex = 72
         Me.Label24.Text = "Vino"
         '
         'PictureBox10
         '
         Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
-        Me.PictureBox10.Location = New System.Drawing.Point(1096, 172)
-        Me.PictureBox10.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox10.Location = New System.Drawing.Point(822, 140)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(161, 126)
+        Me.PictureBox10.Size = New System.Drawing.Size(121, 102)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox10.TabIndex = 71
         Me.PictureBox10.TabStop = False
@@ -173,20 +166,18 @@ Partial Class Bebidas
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(832, 670)
-        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label21.Location = New System.Drawing.Point(624, 544)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(158, 30)
+        Me.Label21.Size = New System.Drawing.Size(126, 24)
         Me.Label21.TabIndex = 70
         Me.Label21.Text = "Agua de jamaica"
         '
         'PictureBox9
         '
         Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
-        Me.PictureBox9.Location = New System.Drawing.Point(829, 535)
-        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox9.Location = New System.Drawing.Point(622, 435)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(161, 126)
+        Me.PictureBox9.Size = New System.Drawing.Size(121, 102)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 69
         Me.PictureBox9.TabStop = False
@@ -195,20 +186,18 @@ Partial Class Bebidas
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(609, 673)
-        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label18.Location = New System.Drawing.Point(457, 547)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(61, 30)
+        Me.Label18.Size = New System.Drawing.Size(47, 24)
         Me.Label18.TabIndex = 68
         Me.Label18.Text = "Pepsi"
         '
         'PictureBox8
         '
         Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
-        Me.PictureBox8.Location = New System.Drawing.Point(563, 535)
-        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox8.Location = New System.Drawing.Point(422, 435)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(161, 126)
+        Me.PictureBox8.Size = New System.Drawing.Size(121, 102)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox8.TabIndex = 67
         Me.PictureBox8.TabStop = False
@@ -217,20 +206,18 @@ Partial Class Bebidas
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(377, 674)
-        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Location = New System.Drawing.Point(283, 548)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(61, 30)
+        Me.Label17.Size = New System.Drawing.Size(47, 24)
         Me.Label17.TabIndex = 66
         Me.Label17.Text = "Pepsi"
         '
         'PictureBox7
         '
         Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(335, 535)
-        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox7.Location = New System.Drawing.Point(251, 435)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(161, 126)
+        Me.PictureBox7.Size = New System.Drawing.Size(121, 102)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox7.TabIndex = 65
         Me.PictureBox7.TabStop = False
@@ -239,10 +226,9 @@ Partial Class Bebidas
         '
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(829, 439)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button3.Location = New System.Drawing.Point(622, 357)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(174, 60)
+        Me.Button3.Size = New System.Drawing.Size(130, 49)
         Me.Button3.TabIndex = 64
         Me.Button3.Text = "Agregar al carrito"
         Me.Button3.UseVisualStyleBackColor = False
@@ -251,10 +237,9 @@ Partial Class Bebidas
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(879, 396)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label14.Location = New System.Drawing.Point(659, 322)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(70, 23)
+        Me.Label14.Size = New System.Drawing.Size(59, 21)
         Me.Label14.TabIndex = 63
         Me.Label14.Text = "$15.00"
         '
@@ -262,10 +247,9 @@ Partial Class Bebidas
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(781, 358)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label13.Location = New System.Drawing.Point(586, 291)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(273, 23)
+        Me.Label13.Size = New System.Drawing.Size(214, 21)
         Me.Label13.TabIndex = 62
         Me.Label13.Text = "Botella de agua ciel 600ml"
         '
@@ -273,20 +257,18 @@ Partial Class Bebidas
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(849, 314)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label12.Location = New System.Drawing.Point(637, 255)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(125, 30)
+        Me.Label12.Size = New System.Drawing.Size(99, 24)
         Me.Label12.TabIndex = 61
         Me.Label12.Text = "Agua natural"
         '
         'PictureBox6
         '
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(829, 172)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox6.Location = New System.Drawing.Point(622, 140)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(161, 126)
+        Me.PictureBox6.Size = New System.Drawing.Size(121, 102)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 60
         Me.PictureBox6.TabStop = False
@@ -295,10 +277,9 @@ Partial Class Bebidas
         '
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(563, 439)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button2.Location = New System.Drawing.Point(422, 357)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(174, 60)
+        Me.Button2.Size = New System.Drawing.Size(130, 49)
         Me.Button2.TabIndex = 59
         Me.Button2.Text = "Agregar al carrito"
         Me.Button2.UseVisualStyleBackColor = False
@@ -307,10 +288,9 @@ Partial Class Bebidas
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(618, 396)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Location = New System.Drawing.Point(464, 322)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(70, 23)
+        Me.Label11.Size = New System.Drawing.Size(59, 21)
         Me.Label11.TabIndex = 58
         Me.Label11.Text = "$50.00"
         '
@@ -318,10 +298,9 @@ Partial Class Bebidas
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(587, 358)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Location = New System.Drawing.Point(440, 291)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(137, 23)
+        Me.Label10.Size = New System.Drawing.Size(109, 21)
         Me.Label10.TabIndex = 57
         Me.Label10.Text = "Refresco 3 lts"
         '
@@ -329,20 +308,18 @@ Partial Class Bebidas
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(602, 314)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Location = New System.Drawing.Point(452, 255)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(99, 30)
+        Me.Label9.Size = New System.Drawing.Size(80, 24)
         Me.Label9.TabIndex = 56
         Me.Label9.Text = "Coca cola"
         '
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(563, 172)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox5.Location = New System.Drawing.Point(422, 140)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(161, 126)
+        Me.PictureBox5.Size = New System.Drawing.Size(121, 102)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 55
         Me.PictureBox5.TabStop = False
@@ -351,10 +328,9 @@ Partial Class Bebidas
         '
         Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(323, 439)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button1.Location = New System.Drawing.Point(242, 357)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(174, 60)
+        Me.Button1.Size = New System.Drawing.Size(130, 49)
         Me.Button1.TabIndex = 54
         Me.Button1.Text = "Agregar al carrito"
         Me.Button1.UseVisualStyleBackColor = False
@@ -363,10 +339,9 @@ Partial Class Bebidas
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(367, 314)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(275, 255)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(99, 30)
+        Me.Label8.Size = New System.Drawing.Size(80, 24)
         Me.Label8.TabIndex = 53
         Me.Label8.Text = "Coca cola"
         '
@@ -374,10 +349,9 @@ Partial Class Bebidas
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(387, 396)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(290, 322)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(70, 23)
+        Me.Label7.Size = New System.Drawing.Size(59, 21)
         Me.Label7.TabIndex = 52
         Me.Label7.Text = "$15.00"
         '
@@ -385,20 +359,18 @@ Partial Class Bebidas
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(335, 358)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(251, 291)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(171, 23)
+        Me.Label3.Size = New System.Drawing.Size(136, 21)
         Me.Label3.TabIndex = 51
         Me.Label3.Text = "Refresco en lata"
         '
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(335, 172)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox4.Location = New System.Drawing.Point(251, 140)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(161, 126)
+        Me.PictureBox4.Size = New System.Drawing.Size(121, 102)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 50
         Me.PictureBox4.TabStop = False
@@ -411,19 +383,17 @@ Partial Class Bebidas
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.ForeColor = System.Drawing.Color.Red
-        Me.Panel2.Location = New System.Drawing.Point(283, 0)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel2.Location = New System.Drawing.Point(206, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1052, 122)
+        Me.Panel2.Size = New System.Drawing.Size(795, 68)
         Me.Panel2.TabIndex = 49
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(855, 11)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox1.Location = New System.Drawing.Point(641, 9)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(87, 66)
+        Me.PictureBox1.Size = New System.Drawing.Size(65, 54)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 25
         Me.PictureBox1.TabStop = False
@@ -431,10 +401,9 @@ Partial Class Bebidas
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(393, 11)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox2.Location = New System.Drawing.Point(295, 9)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(87, 66)
+        Me.PictureBox2.Size = New System.Drawing.Size(65, 54)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 25
         Me.PictureBox2.TabStop = False
@@ -446,10 +415,9 @@ Partial Class Bebidas
         Me.Label2.BackColor = System.Drawing.Color.Red
         Me.Label2.Font = New System.Drawing.Font("Impact", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(492, 16)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(372, 13)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(182, 59)
+        Me.Label2.Size = New System.Drawing.Size(143, 45)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Bebidas"
         '
@@ -465,19 +433,17 @@ Partial Class Bebidas
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(283, 921)
+        Me.Panel1.Size = New System.Drawing.Size(206, 609)
         Me.Panel1.TabIndex = 48
         '
         'Button10
         '
         Me.Button10.BackColor = System.Drawing.Color.White
         Me.Button10.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(81, 593)
-        Me.Button10.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button10.Location = New System.Drawing.Point(61, 482)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(133, 74)
+        Me.Button10.Size = New System.Drawing.Size(100, 60)
         Me.Button10.TabIndex = 52
         Me.Button10.Text = "Ver carrito"
         Me.Button10.UseVisualStyleBackColor = False
@@ -486,10 +452,9 @@ Partial Class Bebidas
         '
         Me.Button9.BackColor = System.Drawing.Color.White
         Me.Button9.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(81, 516)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button9.Location = New System.Drawing.Point(61, 419)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(133, 49)
+        Me.Button9.Size = New System.Drawing.Size(100, 40)
         Me.Button9.TabIndex = 51
         Me.Button9.Text = "Regresar"
         Me.Button9.UseVisualStyleBackColor = False
@@ -497,10 +462,9 @@ Partial Class Bebidas
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(36, 22)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox3.Location = New System.Drawing.Point(9, 9)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(247, 170)
+        Me.PictureBox3.Size = New System.Drawing.Size(185, 138)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 6
         Me.PictureBox3.TabStop = False
@@ -510,10 +474,9 @@ Partial Class Bebidas
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Freestyle Script", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(52, 244)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(22, 191)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(193, 47)
+        Me.Label4.Size = New System.Drawing.Size(155, 37)
         Me.Label4.TabIndex = 18
         Me.Label4.Text = "¡Comida rápida,"
         '
@@ -522,10 +485,9 @@ Partial Class Bebidas
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Freestyle Script", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(72, 444)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(37, 354)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(158, 47)
+        Me.Label6.Size = New System.Drawing.Size(125, 37)
         Me.Label6.TabIndex = 20
         Me.Label6.Text = "Instantánea!"
         '
@@ -534,10 +496,9 @@ Partial Class Bebidas
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Freestyle Script", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(91, 345)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(51, 273)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(118, 47)
+        Me.Label5.Size = New System.Drawing.Size(99, 37)
         Me.Label5.TabIndex = 19
         Me.Label5.Text = "Felicidad"
         '
@@ -546,20 +507,18 @@ Partial Class Bebidas
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label1.Location = New System.Drawing.Point(52, 16)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(39, 13)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(0, 29)
+        Me.Label1.Size = New System.Drawing.Size(0, 24)
         Me.Label1.TabIndex = 0
         '
         'Label29
         '
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(1337, 762)
-        Me.Label29.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label29.Location = New System.Drawing.Point(1003, 619)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(70, 23)
+        Me.Label29.Size = New System.Drawing.Size(59, 21)
         Me.Label29.TabIndex = 88
         Me.Label29.Text = "$40.00"
         '
@@ -567,10 +526,9 @@ Partial Class Bebidas
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(1091, 740)
-        Me.Label28.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label28.Location = New System.Drawing.Point(818, 601)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(206, 23)
+        Me.Label28.Size = New System.Drawing.Size(164, 21)
         Me.Label28.TabIndex = 87
         Me.Label28.Text = "Cerveza cualquiera"
         '
@@ -578,10 +536,9 @@ Partial Class Bebidas
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(803, 741)
-        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label22.Location = New System.Drawing.Point(602, 602)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(259, 23)
+        Me.Label22.Size = New System.Drawing.Size(209, 21)
         Me.Label22.TabIndex = 84
         Me.Label22.Text = "Agua de jamaica natural"
         '
@@ -589,10 +546,9 @@ Partial Class Bebidas
         '
         Me.Button5.BackColor = System.Drawing.Color.White
         Me.Button5.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(563, 833)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button5.Location = New System.Drawing.Point(422, 677)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(174, 61)
+        Me.Button5.Size = New System.Drawing.Size(130, 50)
         Me.Button5.TabIndex = 83
         Me.Button5.Text = "Agregar al carrito"
         Me.Button5.UseVisualStyleBackColor = False
@@ -601,10 +557,9 @@ Partial Class Bebidas
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(623, 787)
-        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label20.Location = New System.Drawing.Point(467, 639)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(70, 23)
+        Me.Label20.Size = New System.Drawing.Size(59, 21)
         Me.Label20.TabIndex = 82
         Me.Label20.Text = "$50.00"
         '
@@ -612,10 +567,9 @@ Partial Class Bebidas
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(580, 742)
-        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label19.Location = New System.Drawing.Point(435, 603)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(137, 23)
+        Me.Label19.Size = New System.Drawing.Size(109, 21)
         Me.Label19.TabIndex = 81
         Me.Label19.Text = "Refresco 3 lts"
         '
@@ -623,10 +577,9 @@ Partial Class Bebidas
         '
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(323, 833)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button4.Location = New System.Drawing.Point(242, 677)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(174, 61)
+        Me.Button4.Size = New System.Drawing.Size(130, 50)
         Me.Button4.TabIndex = 80
         Me.Button4.Text = "Agregar al carrito"
         Me.Button4.UseVisualStyleBackColor = False
@@ -635,10 +588,9 @@ Partial Class Bebidas
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(379, 775)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label15.Location = New System.Drawing.Point(284, 630)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(70, 23)
+        Me.Label15.Size = New System.Drawing.Size(59, 21)
         Me.Label15.TabIndex = 79
         Me.Label15.Text = "$15.00"
         '
@@ -646,10 +598,9 @@ Partial Class Bebidas
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(327, 730)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label16.Location = New System.Drawing.Point(245, 593)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(171, 23)
+        Me.Label16.Size = New System.Drawing.Size(136, 21)
         Me.Label16.TabIndex = 78
         Me.Label16.Text = "Refresco en lata"
         '
@@ -657,10 +608,9 @@ Partial Class Bebidas
         '
         Me.Button6.BackColor = System.Drawing.Color.White
         Me.Button6.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(837, 833)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button6.Location = New System.Drawing.Point(628, 677)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(174, 61)
+        Me.Button6.Size = New System.Drawing.Size(130, 50)
         Me.Button6.TabIndex = 90
         Me.Button6.Text = "Agregar al carrito"
         Me.Button6.UseVisualStyleBackColor = False
@@ -669,10 +619,9 @@ Partial Class Bebidas
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(887, 787)
-        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label23.Location = New System.Drawing.Point(665, 639)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(70, 23)
+        Me.Label23.Size = New System.Drawing.Size(59, 21)
         Me.Label23.TabIndex = 91
         Me.Label23.Text = "$20.00"
         '
@@ -680,10 +629,9 @@ Partial Class Bebidas
         '
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(1155, 787)
-        Me.Label30.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label30.Location = New System.Drawing.Point(866, 639)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(70, 23)
+        Me.Label30.Size = New System.Drawing.Size(59, 21)
         Me.Label30.TabIndex = 92
         Me.Label30.Text = "$40.00"
         '
@@ -691,20 +639,19 @@ Partial Class Bebidas
         '
         Me.Button8.BackColor = System.Drawing.Color.White
         Me.Button8.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(1109, 833)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button8.Location = New System.Drawing.Point(832, 677)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(174, 61)
+        Me.Button8.Size = New System.Drawing.Size(130, 50)
         Me.Button8.TabIndex = 93
         Me.Button8.Text = "Agregar al carrito"
         Me.Button8.UseVisualStyleBackColor = False
         '
         'Bebidas
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.ClientSize = New System.Drawing.Size(1335, 921)
+        Me.ClientSize = New System.Drawing.Size(1001, 609)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Label30)
         Me.Controls.Add(Me.Label23)
@@ -748,6 +695,7 @@ Partial Class Bebidas
         Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Bebidas"
         Me.Text = "Bebidas"
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()

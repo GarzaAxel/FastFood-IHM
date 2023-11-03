@@ -55,10 +55,9 @@ Partial Class Carrito
         '
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(359, 647)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button4.Location = New System.Drawing.Point(269, 526)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(216, 49)
+        Me.Button4.Size = New System.Drawing.Size(162, 40)
         Me.Button4.TabIndex = 27
         Me.Button4.Text = "Cancelar Compra"
         Me.Button4.UseVisualStyleBackColor = False
@@ -67,10 +66,9 @@ Partial Class Carrito
         '
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(844, 647)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button3.Location = New System.Drawing.Point(633, 549)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(216, 49)
+        Me.Button3.Size = New System.Drawing.Size(162, 40)
         Me.Button3.TabIndex = 26
         Me.Button3.Text = "Realizar Compra"
         Me.Button3.UseVisualStyleBackColor = False
@@ -79,10 +77,9 @@ Partial Class Carrito
         '
         Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(359, 591)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button1.Location = New System.Drawing.Point(269, 462)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(217, 49)
+        Me.Button1.Size = New System.Drawing.Size(163, 40)
         Me.Button1.TabIndex = 25
         Me.Button1.Text = "Quitar del carrito"
         Me.Button1.UseVisualStyleBackColor = False
@@ -91,10 +88,9 @@ Partial Class Carrito
         '
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(686, 651)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button2.Location = New System.Drawing.Point(61, 526)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(133, 49)
+        Me.Button2.Size = New System.Drawing.Size(100, 40)
         Me.Button2.TabIndex = 24
         Me.Button2.Text = "Regresar"
         Me.Button2.UseVisualStyleBackColor = False
@@ -103,11 +99,10 @@ Partial Class Carrito
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Clave, Me.NombreP, Me.Cantidad, Me.TipoOrden, Me.ClaveCliente})
-        Me.DataGridView1.Location = New System.Drawing.Point(363, 105)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
+        Me.DataGridView1.Location = New System.Drawing.Point(272, 85)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
-        Me.DataGridView1.Size = New System.Drawing.Size(697, 417)
+        Me.DataGridView1.Size = New System.Drawing.Size(523, 339)
         Me.DataGridView1.TabIndex = 23
         '
         'Clave
@@ -153,19 +148,17 @@ Partial Class Carrito
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.ForeColor = System.Drawing.Color.Red
-        Me.Panel2.Location = New System.Drawing.Point(308, 0)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
+        Me.Panel2.Location = New System.Drawing.Point(231, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(800, 78)
+        Me.Panel2.Size = New System.Drawing.Size(600, 63)
         Me.Panel2.TabIndex = 22
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(665, 8)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox1.Location = New System.Drawing.Point(499, 6)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(87, 66)
+        Me.PictureBox1.Size = New System.Drawing.Size(65, 54)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 25
         Me.PictureBox1.TabStop = False
@@ -173,10 +166,9 @@ Partial Class Carrito
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(81, 7)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox2.Location = New System.Drawing.Point(61, 6)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(87, 66)
+        Me.PictureBox2.Size = New System.Drawing.Size(65, 54)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 25
         Me.PictureBox2.TabStop = False
@@ -188,10 +180,9 @@ Partial Class Carrito
         Me.Label2.BackColor = System.Drawing.Color.Red
         Me.Label2.Font = New System.Drawing.Font("Impact", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(231, 16)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(173, 13)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(375, 59)
+        Me.Label2.Size = New System.Drawing.Size(295, 45)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Carrito de Compra"
         '
@@ -201,22 +192,21 @@ Partial Class Carrito
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label6)
+        Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(308, 740)
+        Me.Panel1.Size = New System.Drawing.Size(231, 601)
         Me.Panel1.TabIndex = 21
         '
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(36, 22)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox3.Location = New System.Drawing.Point(27, 18)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(247, 170)
+        Me.PictureBox3.Size = New System.Drawing.Size(185, 138)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 6
         Me.PictureBox3.TabStop = False
@@ -226,10 +216,9 @@ Partial Class Carrito
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Freestyle Script", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(52, 244)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(39, 198)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(193, 47)
+        Me.Label4.Size = New System.Drawing.Size(155, 37)
         Me.Label4.TabIndex = 18
         Me.Label4.Text = "¡Comida rápida,"
         '
@@ -238,10 +227,9 @@ Partial Class Carrito
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Freestyle Script", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(72, 444)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(54, 361)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(158, 47)
+        Me.Label6.Size = New System.Drawing.Size(125, 37)
         Me.Label6.TabIndex = 20
         Me.Label6.Text = "Instantánea!"
         '
@@ -250,10 +238,9 @@ Partial Class Carrito
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Freestyle Script", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(91, 345)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(68, 280)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(118, 47)
+        Me.Label5.Size = New System.Drawing.Size(99, 37)
         Me.Label5.TabIndex = 19
         Me.Label5.Text = "Felicidad"
         '
@@ -262,25 +249,24 @@ Partial Class Carrito
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label1.Location = New System.Drawing.Point(52, 16)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(39, 13)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(0, 29)
+        Me.Label1.Size = New System.Drawing.Size(0, 24)
         Me.Label1.TabIndex = 0
         '
         'Carrito
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.ClientSize = New System.Drawing.Size(1108, 740)
+        Me.ClientSize = New System.Drawing.Size(831, 601)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Carrito"
         Me.Text = "Carrito"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
