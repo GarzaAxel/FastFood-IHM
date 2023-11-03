@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmRegistro
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmRegistro
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmRegistro))
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -41,8 +41,6 @@ Partial Class frmRegistro
         Me.UsuarioRtxt = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.IdUtxt = New System.Windows.Forms.TextBox()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -243,31 +241,11 @@ Partial Class frmRegistro
         Me.Label1.TabIndex = 94
         Me.Label1.Text = "Usuario:"
         '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(288, 87)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(34, 22)
-        Me.Label8.TabIndex = 104
-        Me.Label8.Text = "ID:"
-        '
-        'IdUtxt
-        '
-        Me.IdUtxt.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IdUtxt.Location = New System.Drawing.Point(342, 87)
-        Me.IdUtxt.Name = "IdUtxt"
-        Me.IdUtxt.Size = New System.Drawing.Size(198, 27)
-        Me.IdUtxt.TabIndex = 105
-        '
         'frmRegistro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(604, 346)
-        Me.Controls.Add(Me.IdUtxt)
-        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
@@ -310,6 +288,4 @@ Partial Class frmRegistro
     Friend WithEvents UsuarioRtxt As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents IdUtxt As TextBox
 End Class

@@ -26,6 +26,6 @@ Public Class frmAcceso
 
     Private Sub RegistrarAbtn_Click(sender As Object, e As EventArgs) Handles RegistrarAbtn.Click
         frmRegistro.Show()
-        Me.Close()
+
     End Sub
 End Class
