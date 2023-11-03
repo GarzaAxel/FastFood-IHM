@@ -24,7 +24,7 @@ Partial Class frmCategoria
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmCategoria))
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnReservaciones = New System.Windows.Forms.Button()
         Me.btnPromociones = New System.Windows.Forms.Button()
         Me.btnCarrito = New System.Windows.Forms.Button()
         Me.btnPostres = New System.Windows.Forms.Button()
@@ -58,23 +58,23 @@ Partial Class frmCategoria
         Me.Label3.TabIndex = 31
         Me.Label3.Text = "Elige la opción que deseas:"
         '
-        'Button2
+        'btnReservaciones
         '
-        Me.Button2.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.Maroon
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(546, 403)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(218, 78)
-        Me.Button2.TabIndex = 32
-        Me.Button2.Text = "      Reservaciones"
-        Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnReservaciones.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.btnReservaciones.FlatAppearance.BorderColor = System.Drawing.Color.Maroon
+        Me.btnReservaciones.FlatAppearance.BorderSize = 0
+        Me.btnReservaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnReservaciones.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnReservaciones.ForeColor = System.Drawing.Color.Black
+        Me.btnReservaciones.Image = CType(resources.GetObject("btnReservaciones.Image"), System.Drawing.Image)
+        Me.btnReservaciones.Location = New System.Drawing.Point(546, 403)
+        Me.btnReservaciones.Name = "btnReservaciones"
+        Me.btnReservaciones.Size = New System.Drawing.Size(218, 78)
+        Me.btnReservaciones.TabIndex = 32
+        Me.btnReservaciones.Text = "      Reservaciones"
+        Me.btnReservaciones.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnReservaciones.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnReservaciones.UseVisualStyleBackColor = True
         '
         'btnPromociones
         '
@@ -306,7 +306,7 @@ Partial Class frmCategoria
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(821, 520)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.btnReservaciones)
         Me.Controls.Add(Me.btnPromociones)
         Me.Controls.Add(Me.btnCarrito)
         Me.Controls.Add(Me.btnPostres)
@@ -329,7 +329,7 @@ Partial Class frmCategoria
     End Sub
 
     Friend WithEvents Label3 As Label
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnReservaciones As Button
     Friend WithEvents btnPromociones As Button
     Friend WithEvents btnCarrito As Button
     Friend WithEvents btnPostres As Button

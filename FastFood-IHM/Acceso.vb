@@ -17,7 +17,7 @@ Public Class frmAcceso
 
         If lec.HasRows Then
             frmCategoria.Show()
-            Me.Close()
+            Me.Hide()
         Else
             MessageBox.Show("Este usuario no existe o los datos son incorrectos.")
         End If

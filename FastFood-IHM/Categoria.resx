@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnReservaciones.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
         1wAAAdcBjJIIaAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAYlSURBVHhe7Zpt
@@ -216,7 +216,7 @@
   <data name="btnCarrito.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
-        YAAAAWABINkT2gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAU5SURBVHhe5Zo/
+        XgAAAV4BX2xuegAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAU5SURBVHhe5Zo/
         bFtVFMYdpDIAXYvECCMytpM4bZUEWqFaFZQBSh1XTVYvjLRx1Qm6IsFSB1WKY6kLKgssqGtTNUCgQiII
         YlFVZUEguqEiJPycyzkO17r35PN7176XRx8ZfpXfed8993zn/XF81JxS6t+h/p4KCtojADAYBGTCB7RH
         AGAwCMiED2iPAMBgEJAJH9AeAcg1mq25xpX2ZqO5pmK4jhbHgkx4kLt3KwiyzpyDeeYBqSfk4liACR+Q
@@ -411,7 +411,7 @@
   <data name="btnComida.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAB
-        YAAAAWABINkT2gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABVPSURBVHhe1VsH
+        XgAAAV4BX2xuegAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAABVPSURBVHhe1VsH
         eBXF2t6TXkkvkAAmIZQQCITehCAgPRSRXhWkSuhV2sXeULmICBYQkSLSlAtYUK9K8aIoRZSiYqXYruWK
         mu9/35mdc/YkBySokX+e503O7s5O+ebrM2uVQkkGOgJTgZXAbuAYcAr4CfgZOGPf+w+wBpgFdAMqAv8v
         S11gDrAXKASkKMKCLEmOsqRctCURwcWfO3AQuAO4EvADLtsSAgwB3gLcE6iUZMnQ5pbc38+SF6dY8vl9
@@ -509,7 +509,7 @@
   <data name="PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAEvXSURBVHhe7b0J
+        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAEvXSURBVHhe7b0J
         2LbV2L4fFUkZKpUSIVMUIkIoROahMstY5qEyJZGQeSxD5iFlLnOlkYpKg9AXEipCmaJM8fsfx9f3/D0e
         5/u+532vdc37vm37pl69657Wuq51rXWu81wJ/n8eLn8iD5Q7yetIAAAAGDkHyP+3yCvkd+Tr5X3kahIA
         AABGxv/IxROApV4uvy73kZ4QrCoBAABgwGwgo5v+8vyd/Jx8trylBABYFmvK6y7y2hIAesDjZXSTn8UL
@@ -839,7 +839,7 @@
   <data name="PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAGKNSURBVHhe7d0H
+        DwAACw8BkvkDpQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAGKNSURBVHhe7d0H
         uCxFufXxQ85RAclJFBQFFAFJIiqgghEVAwZUTFwxXLwmMGfMes2KOQfMigFzxiwmzGLAcM2K4fv+C3q0
         TvHuvSdU9XT3rPU8v0epc85UdU9PV01Pd9Wq//f//p+ZmZktmLDQzMzMhi0sNDMzs2ELC82sG8gW2BuH
         4SjcFCfgLrg3HoiH43F4Gp6Hs/B6vB0fwCdwHs7HD/AL/B5/b+j/q0x/pr+jv6t/o3+r19Br6TX12qpD
@@ -1266,7 +1266,7 @@
   <data name="ContactoCbtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAA7iSURBVHhe1VsJ
+        vwAADr8BOAVTJAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAA7iSURBVHhe1VsJ
         UJRHFo7Z+6zao2rv3ezGisLcgmDQBQ2JUQFdN0tiNIdhDkFAV2IOEFw35lBzGkw0bmqrzKEmRtfEi0RU
         BERAQc45gBmGY4bhVFG5Hfa9/t9PZoZ/mOGa6Ff1SqeP193v735XN3d4C1GA5o8iqWqbWKY6D/9q/WWq
         T8SymPlUPWEQyVV7RDJVL5ANSCeSqY8CbRXJlcvFYtWvqJnvIBKt/jEs+EWYTBfQoCuBIHZCsylc6/ED
