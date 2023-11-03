@@ -322,6 +322,7 @@ Partial Class frmCategoria
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ClientSize = New System.Drawing.Size(1095, 669)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button2)
