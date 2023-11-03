@@ -93,10 +93,10 @@ Partial Class Postres
         'PictureBox11
         '
         Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
-        Me.PictureBox11.Location = New System.Drawing.Point(1176, 566)
+        Me.PictureBox11.Location = New System.Drawing.Point(1021, 469)
         Me.PictureBox11.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(203, 215)
+        Me.PictureBox11.Size = New System.Drawing.Size(157, 106)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 113
         Me.PictureBox11.TabStop = False
@@ -104,10 +104,10 @@ Partial Class Postres
         'PictureBox10
         '
         Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
-        Me.PictureBox10.Location = New System.Drawing.Point(878, 566)
+        Me.PictureBox10.Location = New System.Drawing.Point(783, 469)
         Me.PictureBox10.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(203, 215)
+        Me.PictureBox10.Size = New System.Drawing.Size(157, 106)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox10.TabIndex = 112
         Me.PictureBox10.TabStop = False
@@ -116,10 +116,10 @@ Partial Class Postres
         '
         Me.Button4.BackColor = System.Drawing.Color.White
         Me.Button4.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(1176, 510)
+        Me.Button4.Location = New System.Drawing.Point(1015, 348)
         Me.Button4.Margin = New System.Windows.Forms.Padding(4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(216, 46)
+        Me.Button4.Size = New System.Drawing.Size(170, 85)
         Me.Button4.TabIndex = 111
         Me.Button4.Text = "Agregar al carrito"
         Me.Button4.UseVisualStyleBackColor = False
@@ -135,13 +135,13 @@ Partial Class Postres
         Me.Panel2.Location = New System.Drawing.Point(205, 0)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1393, 100)
+        Me.Panel2.Size = New System.Drawing.Size(1056, 100)
         Me.Panel2.TabIndex = 110
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(1022, 7)
+        Me.PictureBox1.Location = New System.Drawing.Point(816, 4)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(87, 66)
@@ -167,7 +167,7 @@ Partial Class Postres
         Me.gusto.BackColor = System.Drawing.Color.Red
         Me.gusto.Font = New System.Drawing.Font("Impact", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gusto.ForeColor = System.Drawing.Color.White
-        Me.gusto.Location = New System.Drawing.Point(589, 11)
+        Me.gusto.Location = New System.Drawing.Point(421, 11)
         Me.gusto.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.gusto.Name = "gusto"
         Me.gusto.Size = New System.Drawing.Size(172, 59)
@@ -263,10 +263,10 @@ Partial Class Postres
         'PictureBox9
         '
         Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
-        Me.PictureBox9.Location = New System.Drawing.Point(572, 566)
+        Me.PictureBox9.Location = New System.Drawing.Point(534, 469)
         Me.PictureBox9.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(203, 215)
+        Me.PictureBox9.Size = New System.Drawing.Size(157, 106)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 107
         Me.PictureBox9.TabStop = False
@@ -274,10 +274,10 @@ Partial Class Postres
         'PictureBox8
         '
         Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
-        Me.PictureBox8.Location = New System.Drawing.Point(286, 566)
+        Me.PictureBox8.Location = New System.Drawing.Point(298, 469)
         Me.PictureBox8.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(203, 215)
+        Me.PictureBox8.Size = New System.Drawing.Size(157, 106)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox8.TabIndex = 105
         Me.PictureBox8.TabStop = False
@@ -286,7 +286,7 @@ Partial Class Postres
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(1239, 470)
+        Me.Label18.Location = New System.Drawing.Point(1050, 318)
         Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(81, 23)
@@ -297,7 +297,7 @@ Partial Class Postres
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(1147, 431)
+        Me.Label16.Location = New System.Drawing.Point(958, 279)
         Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(247, 23)
@@ -308,7 +308,7 @@ Partial Class Postres
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(1199, 388)
+        Me.Label15.Location = New System.Drawing.Point(1010, 236)
         Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(159, 30)
@@ -318,10 +318,10 @@ Partial Class Postres
         'PictureBox7
         '
         Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(1176, 166)
+        Me.PictureBox7.Location = New System.Drawing.Point(1013, 126)
         Me.PictureBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(203, 215)
+        Me.PictureBox7.Size = New System.Drawing.Size(157, 106)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 101
         Me.PictureBox7.TabStop = False
@@ -330,10 +330,10 @@ Partial Class Postres
         '
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(878, 510)
+        Me.Button3.Location = New System.Drawing.Point(770, 353)
         Me.Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(216, 46)
+        Me.Button3.Size = New System.Drawing.Size(170, 85)
         Me.Button3.TabIndex = 100
         Me.Button3.Text = "Agregar al carrito"
         Me.Button3.UseVisualStyleBackColor = False
@@ -342,7 +342,7 @@ Partial Class Postres
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(952, 470)
+        Me.Label14.Location = New System.Drawing.Point(823, 318)
         Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(70, 23)
@@ -353,7 +353,7 @@ Partial Class Postres
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(872, 431)
+        Me.Label13.Location = New System.Drawing.Point(743, 279)
         Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(223, 23)
@@ -364,7 +364,7 @@ Partial Class Postres
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(910, 388)
+        Me.Label12.Location = New System.Drawing.Point(781, 236)
         Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(153, 30)
@@ -375,10 +375,10 @@ Partial Class Postres
         '
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(572, 510)
+        Me.Button2.Location = New System.Drawing.Point(521, 353)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(216, 46)
+        Me.Button2.Size = New System.Drawing.Size(170, 85)
         Me.Button2.TabIndex = 96
         Me.Button2.Text = "Agregar al carrito"
         Me.Button2.UseVisualStyleBackColor = False
@@ -387,7 +387,7 @@ Partial Class Postres
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(643, 470)
+        Me.Label11.Location = New System.Drawing.Point(571, 318)
         Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(70, 23)
@@ -398,7 +398,7 @@ Partial Class Postres
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(551, 431)
+        Me.Label10.Location = New System.Drawing.Point(479, 279)
         Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(228, 23)
@@ -409,7 +409,7 @@ Partial Class Postres
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(619, 392)
+        Me.Label9.Location = New System.Drawing.Point(547, 240)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(102, 30)
@@ -420,10 +420,10 @@ Partial Class Postres
         '
         Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(286, 510)
+        Me.Button1.Location = New System.Drawing.Point(278, 353)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(203, 46)
+        Me.Button1.Size = New System.Drawing.Size(157, 85)
         Me.Button1.TabIndex = 92
         Me.Button1.Text = "Agregar al carrito"
         Me.Button1.UseVisualStyleBackColor = False
@@ -432,7 +432,7 @@ Partial Class Postres
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(334, 465)
+        Me.Label7.Location = New System.Drawing.Point(312, 313)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(70, 23)
@@ -443,7 +443,7 @@ Partial Class Postres
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(295, 426)
+        Me.Label3.Location = New System.Drawing.Point(273, 274)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(156, 23)
@@ -454,7 +454,7 @@ Partial Class Postres
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(315, 395)
+        Me.Label8.Location = New System.Drawing.Point(293, 243)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(116, 30)
@@ -464,10 +464,10 @@ Partial Class Postres
         'PictureBox6
         '
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(878, 169)
+        Me.PictureBox6.Location = New System.Drawing.Point(775, 129)
         Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(203, 215)
+        Me.PictureBox6.Size = New System.Drawing.Size(157, 106)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 88
         Me.PictureBox6.TabStop = False
@@ -475,10 +475,10 @@ Partial Class Postres
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(572, 173)
+        Me.PictureBox5.Location = New System.Drawing.Point(526, 133)
         Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(203, 215)
+        Me.PictureBox5.Size = New System.Drawing.Size(157, 106)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 87
         Me.PictureBox5.TabStop = False
@@ -486,10 +486,10 @@ Partial Class Postres
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(274, 173)
+        Me.PictureBox4.Location = New System.Drawing.Point(278, 133)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(203, 215)
+        Me.PictureBox4.Size = New System.Drawing.Size(157, 106)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 86
         Me.PictureBox4.TabStop = False
@@ -498,7 +498,7 @@ Partial Class Postres
         '
         Me.Button9.BackColor = System.Drawing.Color.White
         Me.Button9.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(1168, 914)
+        Me.Button9.Location = New System.Drawing.Point(1001, 717)
         Me.Button9.Margin = New System.Windows.Forms.Padding(4)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(203, 49)
@@ -510,7 +510,7 @@ Partial Class Postres
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(1257, 885)
+        Me.Label17.Location = New System.Drawing.Point(1085, 679)
         Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(43, 23)
@@ -521,7 +521,7 @@ Partial Class Postres
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(1181, 845)
+        Me.Label28.Location = New System.Drawing.Point(1009, 639)
         Me.Label28.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(190, 23)
@@ -532,7 +532,7 @@ Partial Class Postres
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(1165, 805)
+        Me.Label2.Location = New System.Drawing.Point(993, 599)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(206, 30)
@@ -543,7 +543,7 @@ Partial Class Postres
         '
         Me.Button8.BackColor = System.Drawing.Color.White
         Me.Button8.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(870, 914)
+        Me.Button8.Location = New System.Drawing.Point(763, 717)
         Me.Button8.Margin = New System.Windows.Forms.Padding(4)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(203, 49)
@@ -555,7 +555,7 @@ Partial Class Postres
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(959, 885)
+        Me.Label20.Location = New System.Drawing.Point(847, 679)
         Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(43, 23)
@@ -566,7 +566,7 @@ Partial Class Postres
         '
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(883, 845)
+        Me.Label26.Location = New System.Drawing.Point(771, 639)
         Me.Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(190, 23)
@@ -577,7 +577,7 @@ Partial Class Postres
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(910, 805)
+        Me.Label21.Location = New System.Drawing.Point(798, 599)
         Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(124, 30)
@@ -588,7 +588,7 @@ Partial Class Postres
         '
         Me.Button6.BackColor = System.Drawing.Color.White
         Me.Button6.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(564, 914)
+        Me.Button6.Location = New System.Drawing.Point(514, 717)
         Me.Button6.Margin = New System.Windows.Forms.Padding(4)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(203, 49)
@@ -600,7 +600,7 @@ Partial Class Postres
         '
         Me.Button5.BackColor = System.Drawing.Color.White
         Me.Button5.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(278, 914)
+        Me.Button5.Location = New System.Drawing.Point(278, 717)
         Me.Button5.Margin = New System.Windows.Forms.Padding(4)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(203, 49)
@@ -612,7 +612,7 @@ Partial Class Postres
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(620, 885)
+        Me.Label25.Location = New System.Drawing.Point(565, 679)
         Me.Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(70, 23)
@@ -623,7 +623,7 @@ Partial Class Postres
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(572, 885)
+        Me.Label24.Location = New System.Drawing.Point(517, 679)
         Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(0, 23)
@@ -633,7 +633,7 @@ Partial Class Postres
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(563, 845)
+        Me.Label23.Location = New System.Drawing.Point(508, 639)
         Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(190, 23)
@@ -644,7 +644,7 @@ Partial Class Postres
         '
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(575, 805)
+        Me.Label30.Location = New System.Drawing.Point(520, 599)
         Me.Label30.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(166, 30)
@@ -655,7 +655,7 @@ Partial Class Postres
         '
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(343, 885)
+        Me.Label31.Location = New System.Drawing.Point(338, 679)
         Me.Label31.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(70, 23)
@@ -666,7 +666,7 @@ Partial Class Postres
         '
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(287, 845)
+        Me.Label32.Location = New System.Drawing.Point(282, 639)
         Me.Label32.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(181, 23)
@@ -677,7 +677,7 @@ Partial Class Postres
         '
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(330, 805)
+        Me.Label33.Location = New System.Drawing.Point(325, 599)
         Me.Label33.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(88, 30)
@@ -689,7 +689,7 @@ Partial Class Postres
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.ClientSize = New System.Drawing.Size(1598, 976)
+        Me.ClientSize = New System.Drawing.Size(1261, 976)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label28)
