@@ -36,7 +36,7 @@ Partial Class frmCategoria
         Me.gusto = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ContactoCbtn = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -229,7 +229,7 @@ Partial Class frmCategoria
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel1.Controls.Add(Me.Label6)
-        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Controls.Add(Me.ContactoCbtn)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Label1)
@@ -253,24 +253,24 @@ Partial Class frmCategoria
         Me.Label6.TabIndex = 20
         Me.Label6.Text = "Instantánea!"
         '
-        'Button1
+        'ContactoCbtn
         '
-        Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.Maroon
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(21, 501)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(252, 85)
-        Me.Button1.TabIndex = 22
-        Me.Button1.Text = "       Contacto"
-        Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ContactoCbtn.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.ContactoCbtn.FlatAppearance.BorderColor = System.Drawing.Color.Maroon
+        Me.ContactoCbtn.FlatAppearance.BorderSize = 0
+        Me.ContactoCbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ContactoCbtn.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ContactoCbtn.ForeColor = System.Drawing.Color.Black
+        Me.ContactoCbtn.Image = CType(resources.GetObject("ContactoCbtn.Image"), System.Drawing.Image)
+        Me.ContactoCbtn.Location = New System.Drawing.Point(21, 501)
+        Me.ContactoCbtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.ContactoCbtn.Name = "ContactoCbtn"
+        Me.ContactoCbtn.Size = New System.Drawing.Size(252, 85)
+        Me.ContactoCbtn.TabIndex = 22
+        Me.ContactoCbtn.Text = "       Contacto"
+        Me.ContactoCbtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.ContactoCbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.ContactoCbtn.UseVisualStyleBackColor = True
         '
         'Label5
         '
@@ -360,7 +360,7 @@ Partial Class frmCategoria
     Friend WithEvents gusto As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label6 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents ContactoCbtn As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
