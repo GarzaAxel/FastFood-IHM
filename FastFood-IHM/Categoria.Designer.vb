@@ -68,7 +68,7 @@ Partial Class frmCategoria
         Me.Button2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Black
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(741, 503)
+        Me.Button2.Location = New System.Drawing.Point(675, 478)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(291, 96)
@@ -87,7 +87,7 @@ Partial Class frmCategoria
         Me.btnPromociones.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPromociones.ForeColor = System.Drawing.Color.Black
         Me.btnPromociones.Image = CType(resources.GetObject("btnPromociones.Image"), System.Drawing.Image)
-        Me.btnPromociones.Location = New System.Drawing.Point(374, 241)
+        Me.btnPromociones.Location = New System.Drawing.Point(308, 216)
         Me.btnPromociones.Margin = New System.Windows.Forms.Padding(4)
         Me.btnPromociones.Name = "btnPromociones"
         Me.btnPromociones.Size = New System.Drawing.Size(265, 85)
@@ -106,7 +106,7 @@ Partial Class frmCategoria
         Me.btnCarrito.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCarrito.ForeColor = System.Drawing.Color.Black
         Me.btnCarrito.Image = CType(resources.GetObject("btnCarrito.Image"), System.Drawing.Image)
-        Me.btnCarrito.Location = New System.Drawing.Point(741, 390)
+        Me.btnCarrito.Location = New System.Drawing.Point(675, 365)
         Me.btnCarrito.Margin = New System.Windows.Forms.Padding(4)
         Me.btnCarrito.Name = "btnCarrito"
         Me.btnCarrito.Size = New System.Drawing.Size(252, 81)
@@ -125,7 +125,7 @@ Partial Class frmCategoria
         Me.btnPostres.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPostres.ForeColor = System.Drawing.Color.Black
         Me.btnPostres.Image = CType(resources.GetObject("btnPostres.Image"), System.Drawing.Image)
-        Me.btnPostres.Location = New System.Drawing.Point(741, 232)
+        Me.btnPostres.Location = New System.Drawing.Point(675, 207)
         Me.btnPostres.Margin = New System.Windows.Forms.Padding(4)
         Me.btnPostres.Name = "btnPostres"
         Me.btnPostres.Size = New System.Drawing.Size(252, 94)
@@ -144,7 +144,7 @@ Partial Class frmCategoria
         Me.btnBebidas.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBebidas.ForeColor = System.Drawing.Color.Black
         Me.btnBebidas.Image = CType(resources.GetObject("btnBebidas.Image"), System.Drawing.Image)
-        Me.btnBebidas.Location = New System.Drawing.Point(374, 503)
+        Me.btnBebidas.Location = New System.Drawing.Point(308, 478)
         Me.btnBebidas.Margin = New System.Windows.Forms.Padding(4)
         Me.btnBebidas.Name = "btnBebidas"
         Me.btnBebidas.Size = New System.Drawing.Size(252, 87)
@@ -163,7 +163,7 @@ Partial Class frmCategoria
         Me.btnComida.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnComida.ForeColor = System.Drawing.Color.Black
         Me.btnComida.Image = CType(resources.GetObject("btnComida.Image"), System.Drawing.Image)
-        Me.btnComida.Location = New System.Drawing.Point(374, 377)
+        Me.btnComida.Location = New System.Drawing.Point(308, 352)
         Me.btnComida.Margin = New System.Windows.Forms.Padding(4)
         Me.btnComida.Name = "btnComida"
         Me.btnComida.Size = New System.Drawing.Size(265, 94)
@@ -184,13 +184,13 @@ Partial Class frmCategoria
         Me.Panel2.Location = New System.Drawing.Point(300, 0)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(795, 145)
+        Me.Panel2.Size = New System.Drawing.Size(753, 145)
         Me.Panel2.TabIndex = 25
         '
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(619, 30)
+        Me.PictureBox3.Location = New System.Drawing.Point(553, 30)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(87, 66)
@@ -216,7 +216,7 @@ Partial Class frmCategoria
         Me.gusto.BackColor = System.Drawing.Color.Red
         Me.gusto.Font = New System.Drawing.Font("Impact", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gusto.ForeColor = System.Drawing.Color.White
-        Me.gusto.Location = New System.Drawing.Point(275, 41)
+        Me.gusto.Location = New System.Drawing.Point(254, 41)
         Me.gusto.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.gusto.Name = "gusto"
         Me.gusto.Size = New System.Drawing.Size(211, 59)
@@ -238,7 +238,7 @@ Partial Class frmCategoria
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(300, 669)
+        Me.Panel1.Size = New System.Drawing.Size(300, 608)
         Me.Panel1.TabIndex = 24
         '
         'Label6
@@ -323,7 +323,7 @@ Partial Class frmCategoria
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.ClientSize = New System.Drawing.Size(1095, 669)
+        Me.ClientSize = New System.Drawing.Size(1053, 608)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btnPromociones)
@@ -333,7 +333,7 @@ Partial Class frmCategoria
         Me.Controls.Add(Me.btnComida)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmCategoria"
         Me.Text = "Categoria"
         Me.Panel2.ResumeLayout(False)

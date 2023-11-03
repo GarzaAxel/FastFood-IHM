@@ -61,7 +61,7 @@ Partial Class Contacto
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(1153, 132)
+        Me.PictureBox3.Location = New System.Drawing.Point(914, 184)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(187, 154)
@@ -84,7 +84,7 @@ Partial Class Contacto
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(868, 572)
+        Me.Label16.Location = New System.Drawing.Point(689, 573)
         Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(229, 30)
@@ -95,7 +95,7 @@ Partial Class Contacto
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(642, 572)
+        Me.Label15.Location = New System.Drawing.Point(463, 573)
         Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(216, 30)
@@ -106,7 +106,7 @@ Partial Class Contacto
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(479, 572)
+        Me.Label14.Location = New System.Drawing.Point(300, 573)
         Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(103, 28)
@@ -117,7 +117,7 @@ Partial Class Contacto
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(644, 503)
+        Me.Label13.Location = New System.Drawing.Point(465, 504)
         Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(271, 30)
@@ -128,7 +128,7 @@ Partial Class Contacto
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(479, 503)
+        Me.Label12.Location = New System.Drawing.Point(300, 504)
         Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(99, 28)
@@ -139,7 +139,7 @@ Partial Class Contacto
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(644, 433)
+        Me.Label11.Location = New System.Drawing.Point(465, 434)
         Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(143, 30)
@@ -150,7 +150,7 @@ Partial Class Contacto
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(479, 431)
+        Me.Label10.Location = New System.Drawing.Point(300, 432)
         Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(116, 28)
@@ -161,7 +161,7 @@ Partial Class Contacto
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(644, 349)
+        Me.Label9.Location = New System.Drawing.Point(465, 350)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(253, 30)
@@ -172,7 +172,7 @@ Partial Class Contacto
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(479, 349)
+        Me.Label8.Location = New System.Drawing.Point(300, 350)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(106, 28)
@@ -183,7 +183,7 @@ Partial Class Contacto
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(644, 281)
+        Me.Label7.Location = New System.Drawing.Point(465, 282)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(407, 30)
@@ -194,7 +194,7 @@ Partial Class Contacto
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(479, 280)
+        Me.Label1.Location = New System.Drawing.Point(300, 281)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(130, 28)
@@ -204,7 +204,7 @@ Partial Class Contacto
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(822, 414)
+        Me.PictureBox1.Location = New System.Drawing.Point(643, 415)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(93, 85)
@@ -215,7 +215,7 @@ Partial Class Contacto
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(642, 180)
+        Me.Label3.Location = New System.Drawing.Point(298, 184)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(297, 42)
@@ -233,7 +233,7 @@ Partial Class Contacto
         Me.Panel2.Location = New System.Drawing.Point(276, 0)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1077, 78)
+        Me.Panel2.Size = New System.Drawing.Size(854, 78)
         Me.Panel2.TabIndex = 39
         '
         'PictureBox5
@@ -265,7 +265,7 @@ Partial Class Contacto
         Me.gusto.BackColor = System.Drawing.Color.Red
         Me.gusto.Font = New System.Drawing.Font("Impact", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gusto.ForeColor = System.Drawing.Color.White
-        Me.gusto.Location = New System.Drawing.Point(428, 16)
+        Me.gusto.Location = New System.Drawing.Point(317, 16)
         Me.gusto.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.gusto.Name = "gusto"
         Me.gusto.Size = New System.Drawing.Size(203, 59)
@@ -364,7 +364,7 @@ Partial Class Contacto
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.ClientSize = New System.Drawing.Size(1353, 644)
+        Me.ClientSize = New System.Drawing.Size(1130, 644)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label16)

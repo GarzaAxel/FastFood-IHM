@@ -67,7 +67,7 @@ Partial Class Carrito
         '
         Me.Button3.BackColor = System.Drawing.Color.White
         Me.Button3.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(995, 651)
+        Me.Button3.Location = New System.Drawing.Point(844, 647)
         Me.Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(216, 49)
@@ -91,7 +91,7 @@ Partial Class Carrito
         '
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(840, 651)
+        Me.Button2.Location = New System.Drawing.Point(686, 651)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(133, 49)
@@ -107,36 +107,41 @@ Partial Class Carrito
         Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
-        Me.DataGridView1.Size = New System.Drawing.Size(853, 430)
+        Me.DataGridView1.Size = New System.Drawing.Size(697, 417)
         Me.DataGridView1.TabIndex = 23
         '
         'Clave
         '
         Me.Clave.HeaderText = "ClaveCompra"
+        Me.Clave.MinimumWidth = 6
         Me.Clave.Name = "Clave"
         Me.Clave.Width = 125
         '
         'NombreP
         '
         Me.NombreP.HeaderText = "Nombre"
+        Me.NombreP.MinimumWidth = 6
         Me.NombreP.Name = "NombreP"
         Me.NombreP.Width = 125
         '
         'Cantidad
         '
         Me.Cantidad.HeaderText = "Cantidad"
+        Me.Cantidad.MinimumWidth = 6
         Me.Cantidad.Name = "Cantidad"
         Me.Cantidad.Width = 125
         '
         'TipoOrden
         '
         Me.TipoOrden.HeaderText = "TipoOrden"
+        Me.TipoOrden.MinimumWidth = 6
         Me.TipoOrden.Name = "TipoOrden"
         Me.TipoOrden.Width = 125
         '
         'ClaveCliente
         '
         Me.ClaveCliente.HeaderText = "ClaveCliente"
+        Me.ClaveCliente.MinimumWidth = 6
         Me.ClaveCliente.Name = "ClaveCliente"
         Me.ClaveCliente.Width = 125
         '
@@ -148,16 +153,16 @@ Partial Class Carrito
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel2.ForeColor = System.Drawing.Color.Red
-        Me.Panel2.Location = New System.Drawing.Point(325, 0)
+        Me.Panel2.Location = New System.Drawing.Point(308, 0)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(927, 78)
+        Me.Panel2.Size = New System.Drawing.Size(800, 78)
         Me.Panel2.TabIndex = 22
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(747, 7)
+        Me.PictureBox1.Location = New System.Drawing.Point(665, 8)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(87, 66)
@@ -168,7 +173,7 @@ Partial Class Carrito
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(164, 7)
+        Me.PictureBox2.Location = New System.Drawing.Point(81, 7)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(87, 66)
@@ -183,7 +188,7 @@ Partial Class Carrito
         Me.Label2.BackColor = System.Drawing.Color.Red
         Me.Label2.Font = New System.Drawing.Font("Impact", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(294, 16)
+        Me.Label2.Location = New System.Drawing.Point(231, 16)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(375, 59)
@@ -202,7 +207,7 @@ Partial Class Carrito
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(325, 740)
+        Me.Panel1.Size = New System.Drawing.Size(308, 740)
         Me.Panel1.TabIndex = 21
         '
         'PictureBox3
@@ -268,7 +273,7 @@ Partial Class Carrito
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.ClientSize = New System.Drawing.Size(1252, 740)
+        Me.ClientSize = New System.Drawing.Size(1108, 740)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)

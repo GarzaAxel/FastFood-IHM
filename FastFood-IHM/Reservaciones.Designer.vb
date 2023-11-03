@@ -24,7 +24,7 @@ Partial Class Reservaciones
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Reservaciones))
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.GuardarResbtn = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -69,18 +69,18 @@ Partial Class Reservaciones
         Me.Button2.Text = "Atrás"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Button1
+        'GuardarResbtn
         '
-        Me.Button1.BackColor = System.Drawing.Color.White
-        Me.Button1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(687, 443)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(152, 46)
-        Me.Button1.TabIndex = 88
-        Me.Button1.Text = "Guardar"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.GuardarResbtn.BackColor = System.Drawing.Color.White
+        Me.GuardarResbtn.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GuardarResbtn.ForeColor = System.Drawing.Color.Black
+        Me.GuardarResbtn.Location = New System.Drawing.Point(687, 443)
+        Me.GuardarResbtn.Margin = New System.Windows.Forms.Padding(4)
+        Me.GuardarResbtn.Name = "GuardarResbtn"
+        Me.GuardarResbtn.Size = New System.Drawing.Size(152, 46)
+        Me.GuardarResbtn.TabIndex = 88
+        Me.GuardarResbtn.Text = "Guardar"
+        Me.GuardarResbtn.UseVisualStyleBackColor = False
         '
         'Panel2
         '
@@ -93,7 +93,7 @@ Partial Class Reservaciones
         Me.Panel2.Location = New System.Drawing.Point(197, 0)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(782, 78)
+        Me.Panel2.Size = New System.Drawing.Size(702, 78)
         Me.Panel2.TabIndex = 87
         '
         'PictureBox4
@@ -125,7 +125,7 @@ Partial Class Reservaciones
         Me.gusto.BackColor = System.Drawing.Color.Red
         Me.gusto.Font = New System.Drawing.Font("Impact", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gusto.ForeColor = System.Drawing.Color.White
-        Me.gusto.Location = New System.Drawing.Point(240, 11)
+        Me.gusto.Location = New System.Drawing.Point(200, 11)
         Me.gusto.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.gusto.Name = "gusto"
         Me.gusto.Size = New System.Drawing.Size(314, 59)
@@ -346,9 +346,9 @@ Partial Class Reservaciones
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.ClientSize = New System.Drawing.Size(979, 537)
+        Me.ClientSize = New System.Drawing.Size(899, 537)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.GuardarResbtn)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.TextBox5)
@@ -380,7 +380,7 @@ Partial Class Reservaciones
     End Sub
 
     Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents GuardarResbtn As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox

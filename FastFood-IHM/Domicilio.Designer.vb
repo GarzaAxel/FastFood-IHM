@@ -54,7 +54,7 @@ Partial Class Domicilio
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(875, 272)
+        Me.TextBox1.Location = New System.Drawing.Point(806, 264)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(267, 32)
@@ -64,7 +64,7 @@ Partial Class Domicilio
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(691, 272)
+        Me.Label8.Location = New System.Drawing.Point(622, 264)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(116, 28)
@@ -75,7 +75,7 @@ Partial Class Domicilio
         '
         Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(851, 340)
+        Me.Button1.Location = New System.Drawing.Point(782, 332)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(133, 49)
@@ -88,7 +88,7 @@ Partial Class Domicilio
         Me.ComboBox1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Transferencia bancaria", "Efectivo"})
-        Me.ComboBox1.Location = New System.Drawing.Point(875, 156)
+        Me.ComboBox1.Location = New System.Drawing.Point(806, 148)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(267, 31)
@@ -98,7 +98,7 @@ Partial Class Domicilio
         '
         Me.Button9.BackColor = System.Drawing.Color.White
         Me.Button9.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(1009, 340)
+        Me.Button9.Location = New System.Drawing.Point(940, 332)
         Me.Button9.Margin = New System.Windows.Forms.Padding(4)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(133, 49)
@@ -111,7 +111,7 @@ Partial Class Domicilio
         Me.PictureBox4.BackgroundImage = CType(resources.GetObject("PictureBox4.BackgroundImage"), System.Drawing.Image)
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(425, 129)
+        Me.PictureBox4.Location = New System.Drawing.Point(356, 121)
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(203, 171)
@@ -123,7 +123,7 @@ Partial Class Domicilio
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(636, 156)
+        Me.Label7.Location = New System.Drawing.Point(567, 148)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(217, 28)
@@ -133,7 +133,7 @@ Partial Class Domicilio
         'usuariotxt
         '
         Me.usuariotxt.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.usuariotxt.Location = New System.Drawing.Point(875, 212)
+        Me.usuariotxt.Location = New System.Drawing.Point(806, 204)
         Me.usuariotxt.Margin = New System.Windows.Forms.Padding(4)
         Me.usuariotxt.Name = "usuariotxt"
         Me.usuariotxt.Size = New System.Drawing.Size(267, 32)
@@ -143,7 +143,7 @@ Partial Class Domicilio
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(677, 217)
+        Me.Label3.Location = New System.Drawing.Point(608, 209)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(130, 28)
@@ -161,13 +161,13 @@ Partial Class Domicilio
         Me.Panel2.Location = New System.Drawing.Point(325, 0)
         Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(889, 78)
+        Me.Panel2.Size = New System.Drawing.Size(770, 78)
         Me.Panel2.TabIndex = 59
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(732, 7)
+        Me.PictureBox1.Location = New System.Drawing.Point(638, 4)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(87, 66)
@@ -178,7 +178,7 @@ Partial Class Domicilio
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(147, 7)
+        Me.PictureBox2.Location = New System.Drawing.Point(88, 7)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(87, 66)
@@ -193,7 +193,7 @@ Partial Class Domicilio
         Me.Label2.BackColor = System.Drawing.Color.Red
         Me.Label2.Font = New System.Drawing.Font("Impact", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(263, 11)
+        Me.Label2.Location = New System.Drawing.Point(204, 11)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(408, 59)
@@ -213,14 +213,14 @@ Partial Class Domicilio
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(325, 547)
+        Me.Panel1.Size = New System.Drawing.Size(325, 486)
         Me.Panel1.TabIndex = 58
         '
         'Button10
         '
         Me.Button10.BackColor = System.Drawing.Color.White
         Me.Button10.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(92, 442)
+        Me.Button10.Location = New System.Drawing.Point(92, 397)
         Me.Button10.Margin = New System.Windows.Forms.Padding(4)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(133, 74)
@@ -244,7 +244,7 @@ Partial Class Domicilio
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Freestyle Script", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(60, 224)
+        Me.Label4.Location = New System.Drawing.Point(62, 206)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(193, 47)
@@ -256,7 +256,7 @@ Partial Class Domicilio
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Freestyle Script", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(72, 358)
+        Me.Label6.Location = New System.Drawing.Point(74, 340)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(158, 47)
@@ -268,7 +268,7 @@ Partial Class Domicilio
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Freestyle Script", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(107, 292)
+        Me.Label5.Location = New System.Drawing.Point(109, 274)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(118, 47)
@@ -291,7 +291,7 @@ Partial Class Domicilio
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.ClientSize = New System.Drawing.Size(1214, 547)
+        Me.ClientSize = New System.Drawing.Size(1095, 486)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Button1)
