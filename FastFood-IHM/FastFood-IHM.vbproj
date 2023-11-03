@@ -86,6 +86,12 @@
     <Compile Include="Categoria.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Comida.Designer.vb">
+      <DependentUpon>Comida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comida.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -121,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Categoria.resx">
       <DependentUpon>Categoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comida.resx">
+      <DependentUpon>Comida.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
