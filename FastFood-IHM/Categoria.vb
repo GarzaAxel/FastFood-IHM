@@ -12,7 +12,7 @@
     End Sub
 
     Private Sub btnCarrito_Click(sender As Object, e As EventArgs) Handles btnCarrito.Click
-        Carrito.Show()
+        frmCarrito.Show()
     End Sub
 
     Private Sub btnBebidas_Click(sender As Object, e As EventArgs) Handles btnBebidas.Click
