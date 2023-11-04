@@ -1,3 +1,3 @@
-﻿Public Class Carrito
+﻿Public Class frmCarrito
 
 End Class

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Carrito
+Partial Class frmCarrito
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,17 +22,12 @@ Partial Class Carrito
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Carrito))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmCarrito))
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Clave = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.NombreP = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Cantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TipoOrden = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ClaveCliente = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.btnSeguirComprando = New System.Windows.Forms.Button()
+        Me.dgvProductos = New System.Windows.Forms.DataGridView()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -43,12 +38,14 @@ Partial Class Carrito
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.dgvPromociones = New System.Windows.Forms.DataGridView()
+        CType(Me.dgvProductos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgvPromociones, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button4
@@ -84,61 +81,25 @@ Partial Class Carrito
         Me.Button1.Text = "Quitar del carrito"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnSeguirComprando
         '
-        Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(61, 526)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(100, 40)
-        Me.Button2.TabIndex = 24
-        Me.Button2.Text = "Regresar"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnSeguirComprando.BackColor = System.Drawing.Color.White
+        Me.btnSeguirComprando.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSeguirComprando.Location = New System.Drawing.Point(27, 549)
+        Me.btnSeguirComprando.Name = "btnSeguirComprando"
+        Me.btnSeguirComprando.Size = New System.Drawing.Size(167, 40)
+        Me.btnSeguirComprando.TabIndex = 24
+        Me.btnSeguirComprando.Text = "Seguir Comprando"
+        Me.btnSeguirComprando.UseVisualStyleBackColor = False
         '
-        'DataGridView1
+        'dgvProductos
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Clave, Me.NombreP, Me.Cantidad, Me.TipoOrden, Me.ClaveCliente})
-        Me.DataGridView1.Location = New System.Drawing.Point(272, 85)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowHeadersWidth = 51
-        Me.DataGridView1.Size = New System.Drawing.Size(523, 339)
-        Me.DataGridView1.TabIndex = 23
-        '
-        'Clave
-        '
-        Me.Clave.HeaderText = "ClaveCompra"
-        Me.Clave.MinimumWidth = 6
-        Me.Clave.Name = "Clave"
-        Me.Clave.Width = 125
-        '
-        'NombreP
-        '
-        Me.NombreP.HeaderText = "Nombre"
-        Me.NombreP.MinimumWidth = 6
-        Me.NombreP.Name = "NombreP"
-        Me.NombreP.Width = 125
-        '
-        'Cantidad
-        '
-        Me.Cantidad.HeaderText = "Cantidad"
-        Me.Cantidad.MinimumWidth = 6
-        Me.Cantidad.Name = "Cantidad"
-        Me.Cantidad.Width = 125
-        '
-        'TipoOrden
-        '
-        Me.TipoOrden.HeaderText = "TipoOrden"
-        Me.TipoOrden.MinimumWidth = 6
-        Me.TipoOrden.Name = "TipoOrden"
-        Me.TipoOrden.Width = 125
-        '
-        'ClaveCliente
-        '
-        Me.ClaveCliente.HeaderText = "ClaveCliente"
-        Me.ClaveCliente.MinimumWidth = 6
-        Me.ClaveCliente.Name = "ClaveCliente"
-        Me.ClaveCliente.Width = 125
+        Me.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvProductos.Location = New System.Drawing.Point(259, 85)
+        Me.dgvProductos.Name = "dgvProductos"
+        Me.dgvProductos.RowHeadersWidth = 51
+        Me.dgvProductos.Size = New System.Drawing.Size(536, 167)
+        Me.dgvProductos.TabIndex = 23
         '
         'Panel2
         '
@@ -150,7 +111,7 @@ Partial Class Carrito
         Me.Panel2.ForeColor = System.Drawing.Color.Red
         Me.Panel2.Location = New System.Drawing.Point(231, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(600, 63)
+        Me.Panel2.Size = New System.Drawing.Size(588, 63)
         Me.Panel2.TabIndex = 22
         '
         'PictureBox1
@@ -180,7 +141,7 @@ Partial Class Carrito
         Me.Label2.BackColor = System.Drawing.Color.Red
         Me.Label2.Font = New System.Drawing.Font("Impact", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(173, 13)
+        Me.Label2.Location = New System.Drawing.Point(167, 13)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(295, 45)
         Me.Label2.TabIndex = 4
@@ -192,7 +153,7 @@ Partial Class Carrito
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label6)
-        Me.Panel1.Controls.Add(Me.Button2)
+        Me.Panel1.Controls.Add(Me.btnSeguirComprando)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
@@ -206,7 +167,7 @@ Partial Class Carrito
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(27, 18)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(185, 138)
+        Me.PictureBox3.Size = New System.Drawing.Size(167, 138)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 6
         Me.PictureBox3.TabStop = False
@@ -254,22 +215,32 @@ Partial Class Carrito
         Me.Label1.Size = New System.Drawing.Size(0, 24)
         Me.Label1.TabIndex = 0
         '
-        'Carrito
+        'dgvPromociones
+        '
+        Me.dgvPromociones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvPromociones.Location = New System.Drawing.Point(259, 268)
+        Me.dgvPromociones.Name = "dgvPromociones"
+        Me.dgvPromociones.RowHeadersWidth = 51
+        Me.dgvPromociones.Size = New System.Drawing.Size(536, 167)
+        Me.dgvPromociones.TabIndex = 28
+        '
+        'frmCarrito
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.ClientSize = New System.Drawing.Size(831, 601)
+        Me.ClientSize = New System.Drawing.Size(819, 601)
+        Me.Controls.Add(Me.dgvPromociones)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.dgvProductos)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.Name = "Carrito"
+        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Name = "frmCarrito"
         Me.Text = "Carrito"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvProductos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -277,6 +248,7 @@ Partial Class Carrito
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvPromociones, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -284,13 +256,8 @@ Partial Class Carrito
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Clave As DataGridViewTextBoxColumn
-    Friend WithEvents NombreP As DataGridViewTextBoxColumn
-    Friend WithEvents Cantidad As DataGridViewTextBoxColumn
-    Friend WithEvents TipoOrden As DataGridViewTextBoxColumn
-    Friend WithEvents ClaveCliente As DataGridViewTextBoxColumn
+    Friend WithEvents btnSeguirComprando As Button
+    Friend WithEvents dgvProductos As DataGridView
     Friend WithEvents Panel2 As Panel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
@@ -301,4 +268,5 @@ Partial Class Carrito
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents dgvPromociones As DataGridView
 End Class
